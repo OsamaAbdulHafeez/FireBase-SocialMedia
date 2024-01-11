@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    margin: auto;
+    background-color: #5777e2;
+    padding: 10px;
+}
+.main h3{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.main input{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    background: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+.main input::placeholder{
+    color: #000;
+}
+.main input:focus{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.main #signupBtn,
+.main #SignUpGoogle,
+.main #LoginBtn,
+.main #VerifyBtn,
+.main #SignOutBtn{
+    width: fit-content;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin: 10px auto;
+    cursor: default;
+}
+.main #SignUpGoogle{
+    display: flex;
+    width: fit-content
+}
+.main #SignUpGoogle img{
+    width: 40px;
+}
+.main #already{
+    text-align: center;
+}
+#already a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Verify */
+.main-verify{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    margin: auto;
+    background-color: #5777e2;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-verify h5{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
